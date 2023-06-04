@@ -1,0 +1,78 @@
+#mention_screen {
+    background-color: #0e0d11;
+}
+
+#mention_screen .channel_header {
+    margin-left: 20px;
+    margin-bottom: 31px;
+}
+
+#mention_screen .channel_header span {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+}
+
+#mention_screen .main_body {
+    width: 100%;
+    height: 85vh;
+    margin-top: 15px;
+    background-color: #141518;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#mention_screen .main_body #padding {
+    padding: 0px 20px;
+}
+
+#mention_screen .main_body #padding .empty_space {
+    height: 55px;
+}
+
+#mention_screen .main_body .image {
+    display: flex;
+    justify-content: center;
+    margin-top: 119px;
+}
+
+#mention_screen .main_body .image img {
+    width: 350px;
+    height: 250px;
+}
+
+#mention_screen .main_body p {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#mention_screen .main_body p:nth-child(3) {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+#mention_screen .main_body p:nth-child(n + 4) {
+    opacity: 0.3;
+}
+
+#mention_screen .main_body #padding .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#mention_screen .main_body #padding .button .add_team {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 0px #0d6948;
+    color: #0d6948;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

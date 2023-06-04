@@ -1,0 +1,157 @@
+#profile_screen {
+    background-color: #0e0d11;
+}
+
+#profile_screen .channel_header {
+    margin-left: 20px;
+    margin-bottom: 31px;
+}
+
+#profile_screen .channel_header span {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+}
+
+#profile_screen .main_body {
+    width: 100%;
+    height: 85vh;
+    margin-top: 15px;
+    background-color: #141518;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#profile_screen .main_body #padding {
+    padding: 0px 20px;
+}
+
+#profile_screen .main_body .profile {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+}
+
+#profile_screen .main_body .profile .picture {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-right: 15px;
+}
+
+#profile_screen .main_body .profile .picture i {
+    color: deepskyblue;
+    font-size: 45px;
+}
+
+#profile_screen .main_body .profile > i {
+    color: green;
+    position: absolute;
+    bottom: -3px;
+    left: 37px;
+}
+
+#profile_screen .main_body .profile .name {
+    color: white;
+    opacity: 0.7;
+    padding-top: 5px;
+}
+
+#profile_screen .main_body .profile .name div:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#profile_screen .main_body .profile .name div:nth-child(2) {
+    opacity: 0.5;
+    font-weight: 200;
+}
+
+#profile_screen .main_body .add_picture {
+    width: 100%;
+    height: 110px;
+    background-color: #151e26;
+    margin: 30px 0px;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#profile_screen .main_body .add_picture div:first-child i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#profile_screen .main_body .add_picture .comment {
+    color: white;
+}
+
+#profile_screen .main_body .add_picture .comment div:nth-child(1) {
+    opacity: 0.7;
+    font-size: 18px;
+    padding-top: 2px;
+    margin-bottom: 10px;
+}
+
+#profile_screen .main_body .add_picture .comment div:nth-child(n + 2) {
+    opacity: 0.5;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+#profile_screen .main_body input[type="text"] {
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #141518;
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    font-weight: 200px;
+    color: white;
+    opacity: 0.5;
+}
+
+#profile_screen .main_body input[type="text"]::placeholder {
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+#profile_screen .main_body .setting,
+#profile_screen .main_body .notification {
+    margin: 25px 0px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+#profile_screen .main_body .setting {
+    padding-bottom: 44px;
+    border-bottom: solid 0px rgba(255, 255, 255, 0.2);
+}
+
+#profile_screen .main_body .setting div,
+#profile_screen .main_body .notification div {
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+#profile_screen .main_body .setting div i,
+#profile_screen .main_body .notification div i {
+    margin-right: 15px;
+}
+
+#profile_screen .main_body .setting .row:nth-child(1),
+#profile_screen .main_body .setting .row:nth-child(2),
+#profile_screen .main_body .notification .row:nth-child(1) {
+    margin-bottom: 20px;
+}

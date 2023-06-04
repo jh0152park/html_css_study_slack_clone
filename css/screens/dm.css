@@ -1,0 +1,95 @@
+#dm_screen {
+    background-color: #0e0d11;
+}
+
+#dm_screen .channel_header {
+    margin-left: 20px;
+    margin-bottom: 31px;
+}
+
+#dm_screen .channel_header span {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+}
+
+#dm_screen .main_body {
+    width: 100%;
+    height: 85vh;
+    margin-top: 15px;
+    background-color: #141518;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#dm_screen .main_body #padding {
+    padding: 0px 20px;
+}
+
+#dm_screen .main_body #padding input[type="text"] {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #141518;
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 200px;
+    color: white;
+    opacity: 0.5;
+}
+
+#dm_screen .main_body #padding input[type="text"]::placeholder {
+    font-size: 20px;
+    font-weight: 200px;
+    opacity: 0.5;
+}
+
+#dm_screen .main_body .image {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#dm_screen .main_body .image img {
+    width: 250px;
+    height: 250px;
+}
+
+#dm_screen .main_body p {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#dm_screen .main_body p:nth-child(3) {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+#dm_screen .main_body p:nth-child(4) {
+    opacity: 0.3;
+}
+
+#dm_screen .main_body #padding .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* margin-bottom: 100px; */
+}
+
+#dm_screen .main_body #padding .button .add_team {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 2px #0d6948;
+    color: #0d6948;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
