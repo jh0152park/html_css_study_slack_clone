@@ -1,0 +1,23 @@
+#no_mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: #380c3a;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+#no_mobile div {
+    color: white;
+}
+
+/* 현재 width가 645px 보다 클때 동작 */
+@media screen and (max-width: 580px) {
+    #no_mobile {
+        display: none;
+    }
+}
