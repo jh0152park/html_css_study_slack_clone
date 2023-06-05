@@ -1,4 +1,6 @@
-HTML CSS Slack Clone Study
+# Project Name
+## HTML CSS Slack Clone Coding
+slack mobile application clone coding with only `html` and `css` for my study. 
 
 
 
